@@ -16,6 +16,6 @@ namespace FSISSystem.DAL
         }
         public DbSet<Guardian> Guardian { get; set; }
         public DbSet<Player> Player { get; set; }
-        public DbSet<Team> Team { get; set; }
+        public DbSet<Team> Teams { get; set; }
     }
 }
